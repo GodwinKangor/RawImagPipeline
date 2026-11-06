@@ -1,0 +1,50 @@
+{
+  "raw_path": "data/original/Thayer.CR2",
+  "camera_path": "data/original/Thayer.JPG",
+  "work_dir": "outputs/runs",
+  "pattern": "RGGB",
+  "white_balance": "camera",
+  "camera_model": "Canon EOS 2000D",
+  "camera_coefficients": [
+    8532,
+    -701,
+    -1167,
+    -4095,
+    11879,
+    2508,
+    -797,
+    2424,
+    7010
+  ],
+  "coefficient_source": "https://dechifro.org/dcraw/dcraw.c (Canon EOS 1500D entry; EOS 2000D regional alias)",
+  "target_mean": 0.25,
+  "manual_patches": [
+    {
+      "label": "Window sill",
+      "bounds": [
+        1504,
+        1516,
+        3616,
+        3696
+      ]
+    },
+    {
+      "label": "Light stone trim",
+      "bounds": [
+        2624,
+        2672,
+        1920,
+        2000
+      ]
+    },
+    {
+      "label": "Shaded pavement",
+      "bounds": [
+        3312,
+        3352,
+        3880,
+        4000
+      ]
+    }
+  ]
+}
